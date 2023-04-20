@@ -1,0 +1,106 @@
+/* Write your CSS here */
+
+@media (max-width: 767px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .google-logo {
+    width: 70vw;
+    height: 25vh;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border: 1px solid #bfbfbf;
+    width: 75vw;
+    padding: 10px;
+    display: flex;
+    border: 0px solid;
+    border-radius: 15px;
+  }
+  .search-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .input {
+    border: 0px;
+    height: 1.5rem;
+    width: 94%;
+  }
+  .input:active {
+    border: 0px solid transparent;
+  }
+  .imgUrl {
+    height: 1.5rem;
+    color: #252617;
+  }
+  ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .google-logo {
+    width: 25vw;
+    height: 17vh;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border: 1px solid #bfbfbf;
+    width: 40vw;
+    padding: 10px;
+    display: flex;
+    border: 0px solid;
+    border-radius: 15px;
+  }
+  .search-input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .input {
+    border: 0px;
+    height: 1.5rem;
+    width: 94%;
+  }
+  .input:active {
+    border: 0px solid transparent;
+  }
+  .imgUrl {
+    height: 1.5rem;
+    color: #252617;
+  }
+  ul {
+    width: 94%;
+    list-style-type: none;
+    margin: 0px;
+    line-height: 8px;
+  }
+}
